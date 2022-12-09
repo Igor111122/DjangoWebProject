@@ -1,0 +1,27 @@
+body
+{
+}
+.indicators {
+    border: 0;
+    background-color: white;
+    font-size: 30px;
+}
+.img_camera {
+    height: 600px;
+    width: 800px;
+    clear: both;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+.img_temp {
+    height: 100px;
+    width: 100px;
+    clear: both;
+    margin-left: 200px;
+}
+.img_water {
+    height: 100px;
+    width: 100px;
+    clear: both;
+    margin-left: 500px;
+}
