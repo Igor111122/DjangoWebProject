@@ -8,9 +8,6 @@ from django.shortcuts import render
 from django.http import HttpRequest
 import random
 
-temp = random.randint (14,24)
-water = random.randint (10,60)
-
 def home(request):
     """Renders the home page."""
     assert isinstance(request, HttpRequest)
@@ -20,8 +17,8 @@ def home(request):
         {
             'title':'Home Page',
             'year':datetime.now().year,
-            'temp':temp,
-            'water':water,
+            'temp':tamp,
+            'water':weter,
         }
     )
     
@@ -51,3 +48,11 @@ def about(request):
         }
     )
 
+def temp():
+    return random.randint (14,24)
+
+def water():
+    return random.randint (10,60)
+
+tamp = random.randint (14,24)
+weter = random.randint (10,60)
