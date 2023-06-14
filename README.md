@@ -1,2 +1,2 @@
-# DjangoWebProject1
+# DjangoWebProject
 This is a site made for my university that displays video from a camera. The site is based on Django framework
